@@ -66,7 +66,7 @@ async def amireallyalive(alive):
         tele += "`Hey! I'm alive. All systems online and functioning normally!`\n\n"
         tele += "` 🔸 Telethon version:` **1.17**\n` 🔹 Python:` **3.8.3**\n"
         tele += f"` 🔸 TeleBot Version:` **{telever}**\n"
-        tele += "` 🔹 More Info:` **@TeleBotSupport**\n"
+        tele += "` 🔹 More Info:` **@MabidaX**\n"
         tele += f"` 🔸 Sudo :` **{sudo}**\n"
         tele += f"` 🔹 TeleBot Uptime:` **{uptime}**\n"
         tele += "` 🔸 Database Status:` **All OK 👌!**\n"
@@ -79,7 +79,7 @@ async def amireallyalive(alive):
         await borg.send_file(alive.chat_id, ALV_PIC, caption=tele, link_preview=False)
         await alive.delete()
         return
-    req = requests.get("https://telegra.ph/file/0670190de8e3bddea6d95.png")
+    req = requests.get("https://telegra.ph/file/ff62ab38870fe9ca63187.jpg")
     req.raise_for_status()
     file = BytesIO(req.content)
     file.seek(0)
@@ -94,7 +94,7 @@ async def amireallyalive(alive):
             "`Hey! I'm alive. All systems online and functioning normally!`\n\n"
             "` 🔸 Telethon version:` **1.17**\n` 🔹 Python:` **3.8.3**\n"
             f"` 🔸 TeleBot Version:` **{telever}**\n"
-            "` 🔹 More Info:` **@TeleBotSupport**\n"
+            "` 🔹 More Info:` **@MabidaX**\n"
             f"` 🔸 Sudo :` **{sudo}**\n"
             f"` 🔹 TeleBot Uptime:` **{uptime}**\n"
             "` 🔸 Database Status:` **All OK 👌!**\n"
